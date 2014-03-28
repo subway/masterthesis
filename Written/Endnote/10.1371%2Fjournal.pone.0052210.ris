@@ -1,0 +1,17 @@
+TY  - JOUR
+T1  - Reevaluating Assembly Evaluations with Feature Response Curves: GAGE and Assemblathons
+A1  - Vezzi, Francesco 
+A1  - Narzisi, Giuseppe 
+A1  - Mishra, Bud 
+Y1  - 2012/12/28
+N2  - <p>In just the last decade, a multitude of bio-technologies and software pipelines have emerged to revolutionize genomics. To further their central goal, they aim to accelerate and improve the quality of <italic>de novo</italic> whole-genome assembly starting from short DNA sequences/reads. However, the performance of each of these tools is contingent on the length and quality of the sequencing data, the structure and complexity of the genome sequence, and the resolution and quality of long-range information. Furthermore, in the absence of any metric that captures the most fundamental “<italic>features</italic>” of a high-quality assembly, there is no obvious recipe for users to select the most desirable assembler/assembly. This situation has prompted the scientific community to rely on crowd-sourcing through international competitions, such as Assemblathons or GAGE, with the intention of identifying the <italic>best</italic> assembler(s) and their features. Somewhat circuitously, the only available approach to gauge <italic>de novo</italic> assemblies and assemblers relies solely on the availability of a high-quality fully assembled reference genome sequence. Still worse, reference-guided evaluations are often both difficult to analyze, leading to conclusions that are difficult to interpret. In this paper, we circumvent many of these issues by relying upon a tool, dubbed <inline-formula><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="info:doi/10.1371/journal.pone.0052210.e001" xlink:type="simple"/></inline-formula>, which is capable of evaluating <italic>de novo</italic> assemblies from the read-layouts even when no reference exists. We extend the FRCurve approach to cases where lay-out information may have been obscured, as is true in many deBruijn-graph-based algorithms. As a by-product, FRCurve now expands its applicability to a much wider class of assemblers – thus, identifying higher-quality members of this group, their inter-relations as well as sensitivity to carefully selected <italic>features</italic>, with or without the support of a reference sequence or layout for the reads. The paper concludes by reevaluating several recently conducted assembly competitions and the datasets that have resulted from them.</p>
+JF  - PLoS ONE
+JA  - PLoS ONE
+VL  - 7
+IS  - 12
+UR  - http://dx.doi.org/10.1371%2Fjournal.pone.0052210
+SP  - e52210
+EP  -
+PB  - Public Library of Science
+M3  - doi:10.1371/journal.pone.0052210
+ER  -

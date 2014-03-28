@@ -1,0 +1,77 @@
+
+PMID- 22319599
+OWN - NLM
+STAT- MEDLINE
+DA  - 20120209
+DCOM- 20120924
+LR  - 20131014
+IS  - 1932-6203 (Electronic)
+IS  - 1932-6203 (Linking)
+VI  - 7
+IP  - 2
+DP  - 2012
+TI  - Feature-by-feature--evaluating de novo sequence assembly.
+PG  - e31002
+LID - 10.1371/journal.pone.0031002 [doi]
+AB  - The whole-genome sequence assembly (WGSA) problem is among one of the most
+      studied problems in computational biology. Despite the availability of a plethora
+      of tools (i.e., assemblers), all claiming to have solved the WGSA problem, little
+      has been done to systematically compare their accuracy and power. Traditional
+      methods rely on standard metrics and read simulation: while on the one hand,
+      metrics like N50 and number of contigs focus only on size without proportionately
+      emphasizing the information about the correctness of the assembly, comparisons
+      performed on simulated dataset, on the other hand, can be highly biased by the
+      non-realistic assumptions in the underlying read generator. Recently the Feature 
+      Response Curve (FRC) method was proposed to assess the overall assembly quality
+      and correctness: FRC transparently captures the trade-offs between contigs'
+      quality against their sizes. Nevertheless, the relationship among the different
+      features and their relative importance remains unknown. In particular, FRC cannot
+      account for the correlation among the different features. We analyzed the
+      correlation among different features in order to better describe their
+      relationships and their importance in gauging assembly quality and correctness.
+      In particular, using multivariate techniques like principal and independent
+      component analysis we were able to estimate the "excess-dimensionality" of the
+      feature space. Moreover, principal component analysis allowed us to show how
+      poorly the acclaimed N50 metric describes the assembly quality. Applying
+      independent component analysis we identified a subset of features that better
+      describe the assemblers performances. We demonstrated that by focusing on a
+      reduced set of highly informative features we can use the FRC curve to better
+      describe and compare the performances of different assemblers. Moreover, as a
+      by-product of our analysis, we discovered how often evaluation based on simulated
+      data, obtained with state of the art simulators, lead to not-so-realistic
+      results.
+FAU - Vezzi, Francesco
+AU  - Vezzi F
+AD  - Department of Mathematics and Informatics, University of Udine, Udine, Italy.
+FAU - Narzisi, Giuseppe
+AU  - Narzisi G
+FAU - Mishra, Bud
+AU  - Mishra B
+LA  - eng
+PT  - Evaluation Studies
+PT  - Journal Article
+PT  - Research Support, Non-U.S. Gov't
+PT  - Research Support, U.S. Gov't, Non-P.H.S.
+DEP - 20120203
+PL  - United States
+TA  - PLoS One
+JT  - PloS one
+JID - 101285081
+SB  - IM
+MH  - Computational Biology/*methods
+MH  - Contig Mapping
+MH  - Genome
+MH  - Methods
+MH  - Sequence Analysis, DNA/*methods
+PMC - PMC3272011
+OID - NLM: PMC3272011
+EDAT- 2012/02/10 06:00
+MHDA- 2012/09/25 06:00
+CRDT- 2012/02/10 06:00
+PHST- 2011/10/06 [received]
+PHST- 2011/12/29 [accepted]
+PHST- 2012/02/03 [epublish]
+AID - 10.1371/journal.pone.0031002 [doi]
+AID - PONE-D-11-19712 [pii]
+PST - ppublish
+SO  - PLoS One. 2012;7(2):e31002. doi: 10.1371/journal.pone.0031002. Epub 2012 Feb 3.

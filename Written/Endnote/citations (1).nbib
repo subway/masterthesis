@@ -1,0 +1,66 @@
+
+PMID- 21810901
+OWN - NLM
+STAT- MEDLINE
+DA  - 20110928
+DCOM- 20120103
+LR  - 20131016
+IS  - 1367-4811 (Electronic)
+IS  - 1367-4803 (Linking)
+VI  - 27
+IP  - 19
+DP  - 2011 Oct 1
+TI  - Mauve assembly metrics.
+PG  - 2756-7
+LID - 10.1093/bioinformatics/btr451 [doi]
+AB  - SUMMARY: High-throughput DNA sequencing technologies have spurred the development
+      of numerous novel methods for genome assembly. With few exceptions, these
+      algorithms are heuristic and require one or more parameters to be manually set by
+      the user. One approach to parameter tuning involves assembling data from an
+      organism with an available high-quality reference genome, and measuring assembly 
+      accuracy using some metrics. We developed a system to measure assembly quality
+      under several scoring metrics, and to compare assembly quality across a variety
+      of assemblers, sequence data types, and parameter choices. When used in
+      conjunction with training data such as a high-quality reference genome and
+      sequence reads from the same organism, our program can be used to manually
+      identify an optimal sequencing and assembly strategy for de novo sequencing of
+      related organisms. AVAILABILITY: GPL source code and a usage tutorial is at
+      http://ngopt.googlecode.com CONTACT: aarondarling@ucdavis.edu SUPPLEMENTARY
+      INFORMATION: Supplementary data is available at Bioinformatics online.
+FAU - Darling, Aaron E
+AU  - Darling AE
+AD  - Genome Center, University of California-Davis, Davis, CA 95616, USA.
+      aarondarling@ucdavis.edu
+FAU - Tritt, Andrew
+AU  - Tritt A
+FAU - Eisen, Jonathan A
+AU  - Eisen JA
+FAU - Facciotti, Marc T
+AU  - Facciotti MT
+LA  - eng
+PT  - Journal Article
+PT  - Research Support, U.S. Gov't, Non-P.H.S.
+DEP - 20110802
+PL  - England
+TA  - Bioinformatics
+JT  - Bioinformatics (Oxford, England)
+JID - 9808944
+SB  - IM
+MH  - *Algorithms
+MH  - Base Sequence
+MH  - *Genome
+MH  - Haloferax volcanii/*genetics
+MH  - High-Throughput Nucleotide Sequencing/*standards
+MH  - Sequence Alignment/*standards
+MH  - Sequence Analysis, DNA/standards
+PMC - PMC3179657
+OID - NLM: PMC3179657
+EDAT- 2011/08/04 06:00
+MHDA- 2012/01/04 06:00
+CRDT- 2011/08/04 06:00
+PHST- 2011/08/02 [aheadofprint]
+AID - btr451 [pii]
+AID - 10.1093/bioinformatics/btr451 [doi]
+PST - ppublish
+SO  - Bioinformatics. 2011 Oct 1;27(19):2756-7. doi: 10.1093/bioinformatics/btr451.
+      Epub 2011 Aug 2.
