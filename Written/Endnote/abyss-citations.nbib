@@ -1,0 +1,75 @@
+
+PMID- 19251739
+OWN - NLM
+STAT- MEDLINE
+DA  - 20090602
+DCOM- 20090803
+LR  - 20130828
+IS  - 1088-9051 (Print)
+IS  - 1088-9051 (Linking)
+VI  - 19
+IP  - 6
+DP  - 2009 Jun
+TI  - ABySS: a parallel assembler for short read sequence data.
+PG  - 1117-23
+LID - 10.1101/gr.089532.108 [doi]
+AB  - Widespread adoption of massively parallel deoxyribonucleic acid (DNA) sequencing 
+      instruments has prompted the recent development of de novo short read assembly
+      algorithms. A common shortcoming of the available tools is their inability to
+      efficiently assemble vast amounts of data generated from large-scale sequencing
+      projects, such as the sequencing of individual human genomes to catalog natural
+      genetic variation. To address this limitation, we developed ABySS (Assembly By
+      Short Sequences), a parallelized sequence assembler. As a demonstration of the
+      capability of our software, we assembled 3.5 billion paired-end reads from the
+      genome of an African male publicly released by Illumina, Inc. Approximately 2.76 
+      million contigs > or =100 base pairs (bp) in length were created with an N50 size
+      of 1499 bp, representing 68% of the reference human genome. Analysis of these
+      contigs identified polymorphic and novel sequences not present in the human
+      reference assembly, which were validated by alignment to alternate human
+      assemblies and to other primate genomes.
+FAU - Simpson, Jared T
+AU  - Simpson JT
+AD  - Genome Sciences Centre, British Columbia Cancer Agency, Vancouver, British
+      Columbia V5Z 4E6, Canada.
+FAU - Wong, Kim
+AU  - Wong K
+FAU - Jackman, Shaun D
+AU  - Jackman SD
+FAU - Schein, Jacqueline E
+AU  - Schein JE
+FAU - Jones, Steven J M
+AU  - Jones SJ
+FAU - Birol, Inanc
+AU  - Birol I
+LA  - eng
+PT  - Journal Article
+PT  - Research Support, Non-U.S. Gov't
+DEP - 20090227
+PL  - United States
+TA  - Genome Res
+JT  - Genome research
+JID - 9518021
+SB  - IM
+MH  - *Algorithms
+MH  - Animals
+MH  - Computational Biology/*methods
+MH  - Contig Mapping
+MH  - Escherichia coli K12/genetics
+MH  - Genetic Variation
+MH  - Genome, Human
+MH  - Humans
+MH  - Polymorphism, Genetic
+MH  - Reproducibility of Results
+MH  - Sequence Analysis, DNA/methods
+MH  - *Software
+PMC - PMC2694472
+OID - NLM: PMC2694472
+EDAT- 2009/03/03 09:00
+MHDA- 2009/08/04 09:00
+CRDT- 2009/03/03 09:00
+PHST- 2009/02/27 [aheadofprint]
+PHST- 2009/04/21 [aheadofprint]
+AID - gr.089532.108 [pii]
+AID - 10.1101/gr.089532.108 [doi]
+PST - ppublish
+SO  - Genome Res. 2009 Jun;19(6):1117-23. doi: 10.1101/gr.089532.108. Epub 2009 Feb 27.
