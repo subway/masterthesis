@@ -1,0 +1,35 @@
+TY  - JOUR
+JO  - Software, IEEE
+TI  - Status report: software reusability
+T2  - Software, IEEE
+IS  - 3
+SN  - 0740-7459
+VO  - 10
+SP  - 61
+EP  - 66
+AU  - Prieto-Diaz, R.
+Y1  - May 1993
+PY  - 1993
+KW  - software quality
+KW  - software reusability
+KW  - software engineering
+KW  - software productivity
+KW  - software quality
+KW  - software reusability
+KW  - Catalogs
+KW  - History
+KW  - Humans
+KW  - Missiles
+KW  - Production facilities
+KW  - Productivity
+KW  - Programming profession
+KW  - Software algorithms
+KW  - Software engineering
+KW  - Software reusability
+VL  - 10
+JA  - Software, IEEE
+DO  - 10.1109/52.210605
+AB  - It is argued that the problem with software engineering is not a lack of reuse, but a lack of widespread, systematic reuse. The reuse research community is focusing on formalizing reuse because it recognizes that substantial quality and productivity payoffs will be achieved only if reuse is conducted systematically and formally. The history of reuse, which is characterized by this struggle to formalize in a setting where pragmatic problems are the norm and fast informal solutions usually take precedence, is reviewed. Several reuse methods are discussed.<<ETX>>
+ER  - 
+
+

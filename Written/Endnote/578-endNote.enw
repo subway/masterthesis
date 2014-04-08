@@ -1,0 +1,12 @@
+	
+%A Raymond, Eric S.
+%D 1998
+%T The cathedral and the bazaar
+%B 1998
+%9 
+%! The cathedral and the bazaar
+%K 
+%X I anatomize a successful open-source project, fetchmail, that was run as a deliberate test of some surprising theories about software engineering suggested by the history of Linux. I discuss these theories in terms of two fundamentally different development styles, the "cathedral" model of most of the commercial world versus the "bazaar" model of the Linux world. I show that these models derive from opposing assumptions about the nature of the software-debugging task. I then make a sustained argument from the Linux experience for the proposition that "Given enough eyeballs, all bugs are shallow", suggest productive analogies with other self-correcting systems of selfish agents, and conclude with some exploration of the implications of this insight for the future of software.
+%U http://www.firstmonday.org/ojs/index.php/fm/article/view/578/499
+%J First Monday
+%@ 13960466|escape}

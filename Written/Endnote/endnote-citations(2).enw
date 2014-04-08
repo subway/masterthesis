@@ -1,0 +1,12 @@
+%A Bolger, Anthony M.
+%A Lohse, Marc
+%A Usadel, Bjoern
+%T Trimmomatic: A flexible trimmer for Illumina Sequence Data
+%0 Journal Article
+%D 2014 
+%8 April 1, 2014 
+%J Bioinformatics 
+%R 10.1093/bioinformatics/btu170 
+%U http://bioinformatics.oxfordjournals.org/content/early/2014/04/01/bioinformatics.btu170.abstract 
+%X Motivation: Although many NGS read pre-processing tools already existed, we could not find any tool or combination of tools which met our requirements in terms of flexibility, correct handling of paired-end data, and high performance. We have developed Trimmomatic as a more flexible and efficient pre-processing tool, which could correctly handle paired-end data.Results: The value of NGS read pre-processing is demonstrated for both reference-based and reference-free tasks. Trimmomatic is shown to produce output which is at least competitive with, and in many cases superior to, that produced by other tools, in all scenarios tested.Availability and Implementation: Trimmomatic is licensed under GPL V3. It is cross-platform (Java 1.5+ required) and available from http://www.usadellab.org/cms/index.php?page=trimmomaticContact: usadel@bio1.rwth-aachen.deSupplementary Information: Manual and source code are available from http://www.usadellab.org/cms/index.php?page=trimmomatic 
+

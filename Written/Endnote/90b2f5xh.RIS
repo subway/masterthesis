@@ -1,0 +1,16 @@
+TY  - JOUR
+AU  - Baumer, Ben
+AU  - Cetinkaya-Rundel, Mine
+AU  - Bray, Andrew
+AU  - Loi, Linda
+AU  - Horton, Nicholas J.
+Y1  - 2014
+PY  - 2014-01-01
+TI  - R Markdown: Integrating A Reproducible Analysis Tool into Introductory Statistics
+JF  - Technology Innovations in Statistics Education   
+VL  - 8
+IS  - 1
+SN  - 1933-4214
+N2  - Nolan and Temple Lang argue that “the ability to express statistical computations is an es- sential skill.” A key related capacity is the ability to conduct and present data analysis in a way that another person can understand and replicate. The copy-and-paste workflow that is an artifact of antiquated user-interface design makes reproducibility of statistical analysis more difficult, especially as data become increasingly complex and statistical methods become increasingly sophisticated. R Markdown is a new technology that makes creating fully-reproducible statistical analysis simple and painless. It provides a solution suitable not only for cutting edge research, but also for use in an introductory statistics course. We present experiential and statistical evidence that R Markdown can be used effectively in introductory statistics courses, and discuss its role in the rapidly-changing world of statistical computation.    
+UR  - http://www.escholarship.org/uc/item/90b2f5xh
+ER  - 

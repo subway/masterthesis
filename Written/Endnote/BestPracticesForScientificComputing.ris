@@ -1,0 +1,27 @@
+TY  - JOUR
+T1  - Best Practices for Scientific Computing
+A1  - Wilson, Greg 
+A1  - Aruliah, D. A. 
+A1  - Brown, C. Titus 
+A1  - Chue Hong, Neil P. 
+A1  - Davis, Matt 
+A1  - Guy, Richard T. 
+A1  - Haddock, Steven H. D. 
+A1  - Huff, Kathryn D. 
+A1  - Mitchell, Ian M. 
+A1  - Plumbley, Mark D. 
+A1  - Waugh, Ben 
+A1  - White, Ethan P. 
+A1  - Wilson, Paul 
+Y1  - 2014/01/07
+N2  - <sec><title/><p>We describe a set of best practices for scientific software development, based on research and experience, that will improve scientists' productivity and the reliability of their software.</p></sec>
+JF  - PLoS Biol
+JA  - PLoS Biol
+VL  - 12
+IS  - 1
+UR  - http://dx.doi.org/10.1371%2Fjournal.pbio.1001745
+SP  - e1001745
+EP  -
+PB  - Public Library of Science
+M3  - doi:10.1371/journal.pbio.1001745
+ER  -

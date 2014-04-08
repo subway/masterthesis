@@ -1,0 +1,41 @@
+
+PMID- 24225083
+OWN - NLM
+STAT- PubMed-not-MEDLINE
+DA  - 20131210
+DCOM- 20131210
+IS  - 2047-217X (Electronic)
+IS  - 2047-217X (Linking)
+VI  - 2
+IP  - 1
+DP  - 2013
+TI  - Ten recommendations for creating usable bioinformatics command line software.
+PG  - 15
+LID - 10.1186/2047-217X-2-15 [doi]
+AB  - Bioinformatics software varies greatly in quality. In terms of usability, the
+      command line interface is the first experience a user will have of a tool.
+      Unfortunately, this is often also the last time a tool will be used. Here I
+      present ten recommendations for command line software author's tools to follow,
+      which I believe would greatly improve the uptake and usability of their products,
+      waste less user's time, and improve the quality of scientific analyses.
+FAU - Seemann, Torsten
+AU  - Seemann T
+AD  - Victorian Bioinformatics Consortium, Building 76 Monash University Clayton,
+      Clayton, VIC 3800, Australia. torsten.seemann@monash.edu.
+LA  - eng
+PT  - Editorial
+DEP - 20131113
+PL  - England
+TA  - Gigascience
+JT  - GigaScience
+JID - 101596872
+EDAT- 2013/11/15 06:00
+MHDA- 2013/11/15 06:01
+CRDT- 2013/11/15 06:00
+PHST- 2013/10/21 [received]
+PHST- 2013/11/11 [accepted]
+PHST- 2013/11/13 [aheadofprint]
+AID - 2047-217X-2-15 [pii]
+AID - 10.1186/2047-217X-2-15 [doi]
+PST - epublish
+SO  - Gigascience. 2013 Nov 13;2(1):15. doi: 10.1186/2047-217X-2-15.

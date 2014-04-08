@@ -1,0 +1,61 @@
+
+PMID- 23335018
+OWN - NLM
+STAT- MEDLINE
+DA  - 20130315
+DCOM- 20130923
+IS  - 1367-4811 (Electronic)
+IS  - 1367-4803 (Linking)
+VI  - 29
+IP  - 6
+DP  - 2013 Mar 15
+TI  - Improving the reuse of computational models through version control.
+PG  - 742-8
+LID - 10.1093/bioinformatics/btt018 [doi]
+AB  - MOTIVATION: Only models that are accessible to researchers can be reused. As
+      computational models evolve over time, a number of different but related versions
+      of a model exist. Consequently, tools are required to manage not only
+      well-curated models but also their associated versions. RESULTS: In this work, we
+      discuss conceptual requirements for model version control. Focusing on XML
+      formats such as Systems Biology Markup Language and CellML, we present methods
+      for the identification and explanation of differences and for the justification
+      of changes between model versions. In consequence, researchers can reflect on
+      these changes, which in turn have considerable value for the development of new
+      models. The implementation of model version control will therefore foster the
+      exploration of published models and increase their reusability.
+FAU - Waltemath, Dagmar
+AU  - Waltemath D
+AD  - Department of Systems Biology and Bioinformatics, University of Rostock, 18051
+      Rostock, Germany. dagmar.waltemath@uni-rostock.de
+FAU - Henkel, Ron
+AU  - Henkel R
+FAU - Halke, Robert
+AU  - Halke R
+FAU - Scharm, Martin
+AU  - Scharm M
+FAU - Wolkenhauer, Olaf
+AU  - Wolkenhauer O
+LA  - eng
+PT  - Journal Article
+PT  - Research Support, Non-U.S. Gov't
+DEP - 20130118
+PL  - England
+TA  - Bioinformatics
+JT  - Bioinformatics (Oxford, England)
+JID - 9808944
+SB  - IM
+MH  - Algorithms
+MH  - *Computer Simulation
+MH  - *Models, Biological
+MH  - Software
+MH  - Systems Biology
+EDAT- 2013/01/22 06:00
+MHDA- 2013/09/24 06:00
+CRDT- 2013/01/22 06:00
+PHST- 2013/01/18 [aheadofprint]
+PHST- 2013/02/20 [aheadofprint]
+AID - btt018 [pii]
+AID - 10.1093/bioinformatics/btt018 [doi]
+PST - ppublish
+SO  - Bioinformatics. 2013 Mar 15;29(6):742-8. doi: 10.1093/bioinformatics/btt018. Epub
+      2013 Jan 18.

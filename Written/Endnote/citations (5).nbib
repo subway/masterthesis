@@ -1,0 +1,53 @@
+
+PMID- 16646837
+OWN - NLM
+STAT- PubMed-not-MEDLINE
+DA  - 20060501
+DCOM- 20060518
+LR  - 20061204
+IS  - 1544-6115 (Electronic)
+IS  - 1544-6115 (Linking)
+VI  - 4
+DP  - 2005
+TI  - Reproducible research: a bioinformatics case study.
+PG  - Article2
+AB  - While scientific research and the methodologies involved have gone through
+      substantial technological evolution the technology involved in the publication of
+      the results of these endeavors has remained relatively stagnant. Publication is
+      largely done in the same manner today as it was fifty years ago. Many journals
+      have adopted electronic formats, however, their orientation and style is little
+      different from a printed document. The documents tend to be static and take
+      little advantage of computational resources that might be available. Recent work,
+      Gentleman and Temple Lang (2003), suggests a methodology and basic infrastructure
+      that can be used to publish documents in a substantially different way. Their
+      approach is suitable for the publication of papers whose message relies on
+      computation. Stated quite simply, Gentleman and Temple Lang (2003) propose a
+      paradigm where documents are mixtures of code and text. Such documents may be
+      self-contained or they may be a component of a compendium which provides the
+      infrastructure needed to provide access to data and supporting software. These
+      documents, or compendiums, can be processed in a number of different ways. One
+      transformation will be to replace the code with its output -- thereby providing
+      the familiar, but limited, static document. <p /> In this paper we apply these
+      concepts to a seminal paper in bioinformatics, namely The Molecular
+      Classification of Cancer, Golub et al (1999). The authors of that paper have
+      generously provided data and other information that have allowed us to largely
+      reproduce their results. Rather than reproduce this paper exactly we demonstrate 
+      that such a reproduction is possible and instead concentrate on demonstrating the
+      usefulness of the compendium concept itself.
+FAU - Gentleman, Robert
+AU  - Gentleman R
+AD  - Harvard University, USA. rgentlem@fhcrc.org
+LA  - eng
+PT  - Journal Article
+DEP - 20050111
+PL  - United States
+TA  - Stat Appl Genet Mol Biol
+JT  - Statistical applications in genetics and molecular biology
+JID - 101176023
+EDAT- 2006/05/02 09:00
+MHDA- 2006/05/02 09:01
+CRDT- 2006/05/02 09:00
+PHST- 2005/01/11 [epublish]
+AID - 10.2202/1544-6115.1034 [doi]
+PST - ppublish
+SO  - Stat Appl Genet Mol Biol. 2005;4:Article2. Epub 2005 Jan 11.
