@@ -1,0 +1,91 @@
+
+PMID- 23990416
+OWN - NLM
+STAT- MEDLINE
+DA  - 20131021
+DCOM- 20140331
+IS  - 1367-4811 (Electronic)
+IS  - 1367-4803 (Linking)
+VI  - 29
+IP  - 21
+DP  - 2013 Nov 1
+TI  - The MaSuRCA genome assembler.
+PG  - 2669-77
+LID - 10.1093/bioinformatics/btt476 [doi]
+AB  - MOTIVATION: Second-generation sequencing technologies produce high coverage of
+      the genome by short reads at a low cost, which has prompted development of new
+      assembly methods. In particular, multiple algorithms based on de Bruijn graphs
+      have been shown to be effective for the assembly problem. In this article, we
+      describe a new hybrid approach that has the computational efficiency of de Bruijn
+      graph methods and the flexibility of overlap-based assembly strategies, and which
+      allows variable read lengths while tolerating a significant level of sequencing
+      error. Our method transforms large numbers of paired-end reads into a much
+      smaller number of longer 'super-reads'. The use of super-reads allows us to
+      assemble combinations of Illumina reads of differing lengths together with longer
+      reads from 454 and Sanger sequencing technologies, making it one of the few
+      assemblers capable of handling such mixtures. We call our system the Maryland
+      Super-Read Celera Assembler (abbreviated MaSuRCA and pronounced 'mazurka').
+      RESULTS: We evaluate the performance of MaSuRCA against two of the most widely
+      used assemblers for Illumina data, Allpaths-LG and SOAPdenovo2, on two datasets
+      from organisms for which high-quality assemblies are available: the bacterium
+      Rhodobacter sphaeroides and chromosome 16 of the mouse genome. We show that
+      MaSuRCA performs on par or better than Allpaths-LG and significantly better than 
+      SOAPdenovo on these data, when evaluated against the finished sequence. We then
+      show that MaSuRCA can significantly improve its assemblies when the original data
+      are augmented with long reads. AVAILABILITY: MaSuRCA is available as open-source 
+      code at ftp://ftp.genome.umd.edu/pub/MaSuRCA/. Previous (pre-publication)
+      releases have been publicly available for over a year. CONTACT:
+      alekseyz@ipst.umd.edu. SUPPLEMENTARY INFORMATION: Supplementary data are
+      available at Bioinformatics online.
+FAU - Zimin, Aleksey V
+AU  - Zimin AV
+AD  - Institute for Physical Sciences and Technology, University of Maryland, College
+      Park, MD 20742, USA, Center for Computational Biology, McKusick-Nathans Institute
+      of Genetic Medicine, Johns Hopkins University School of Medicine, Baltimore, MD
+      21205, USA, Department of Mathematics and Department of Physics, University of
+      Maryland, College Park, MD 20742, USA.
+FAU - Marcais, Guillaume
+AU  - Marcais G
+FAU - Puiu, Daniela
+AU  - Puiu D
+FAU - Roberts, Michael
+AU  - Roberts M
+FAU - Salzberg, Steven L
+AU  - Salzberg SL
+FAU - Yorke, James A
+AU  - Yorke JA
+LA  - eng
+GR  - R01-HG002945/HG/NHGRI NIH HHS/United States
+GR  - R01-HG006677/HG/NHGRI NIH HHS/United States
+GR  - R21 HG006913/HG/NHGRI NIH HHS/United States
+PT  - Evaluation Studies
+PT  - Journal Article
+PT  - Research Support, N.I.H., Extramural
+PT  - Research Support, U.S. Gov't, Non-P.H.S.
+DEP - 20130829
+PL  - England
+TA  - Bioinformatics
+JT  - Bioinformatics (Oxford, England)
+JID - 9808944
+SB  - IM
+MH  - Algorithms
+MH  - Animals
+MH  - Genome, Bacterial
+MH  - Genomics/*methods
+MH  - Mice
+MH  - Rhodobacter sphaeroides/genetics
+MH  - Sequence Analysis, DNA/methods
+MH  - Software
+PMC - PMC3799473
+OID - NLM: PMC3799473 [Available on 11/01/14]
+EDAT- 2013/08/31 06:00
+MHDA- 2014/04/01 06:00
+CRDT- 2013/08/31 06:00
+PMCR- 2014/11/01 00:00
+PHST- 2013/08/29 [aheadofprint]
+PHST- 2013/09/06 [aheadofprint]
+AID - btt476 [pii]
+AID - 10.1093/bioinformatics/btt476 [doi]
+PST - ppublish
+SO  - Bioinformatics. 2013 Nov 1;29(21):2669-77. doi: 10.1093/bioinformatics/btt476.
+      Epub 2013 Aug 29.

@@ -1,0 +1,68 @@
+
+PMID- 22156294
+OWN - NLM
+STAT- MEDLINE
+DA  - 20120302
+DCOM- 20120709
+LR  - 20131015
+IS  - 1549-5469 (Electronic)
+IS  - 1088-9051 (Linking)
+VI  - 22
+IP  - 3
+DP  - 2012 Mar
+TI  - Efficient de novo assembly of large genomes using compressed data structures.
+PG  - 549-56
+LID - 10.1101/gr.126953.111 [doi]
+AB  - De novo genome sequence assembly is important both to generate new sequence
+      assemblies for previously uncharacterized genomes and to identify the genome
+      sequence of individuals in a reference-unbiased way. We present memory efficient 
+      data structures and algorithms for assembly using the FM-index derived from the
+      compressed Burrows-Wheeler transform, and a new assembler based on these called
+      SGA (String Graph Assembler). We describe algorithms to error-correct, assemble, 
+      and scaffold large sets of sequence data. SGA uses the overlap-based string graph
+      model of assembly, unlike most de novo assemblers that rely on de Bruijn graphs, 
+      and is simply parallelizable. We demonstrate the error correction and assembly
+      performance of SGA on 1.2 billion sequence reads from a human genome, which we
+      are able to assemble using 54 GB of memory. The resulting contigs are highly
+      accurate and contiguous, while covering 95% of the reference genome (excluding
+      contigs <200 bp in length). Because of the low memory requirements and
+      parallelization without requiring inter-process communication, SGA provides the
+      first practical assembler to our knowledge for a mammalian-sized genome on a
+      low-end computing cluster.
+FAU - Simpson, Jared T
+AU  - Simpson JT
+AD  - Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Hinxton,
+      Cambridge, United Kingdom.
+FAU - Durbin, Richard
+AU  - Durbin R
+LA  - eng
+GR  - WT077192/Wellcome Trust/United Kingdom
+PT  - Journal Article
+PT  - Research Support, Non-U.S. Gov't
+DEP - 20111207
+PL  - United States
+TA  - Genome Res
+JT  - Genome research
+JID - 9518021
+SB  - IM
+MH  - Algorithms
+MH  - Animals
+MH  - Computational Biology/methods
+MH  - Data Compression
+MH  - Genomics/*methods
+MH  - Humans
+MH  - Internet
+MH  - Reproducibility of Results
+MH  - Sequence Analysis, DNA/*methods
+MH  - *Software
+PMC - PMC3290790
+OID - NLM: PMC3290790
+EDAT- 2011/12/14 06:00
+MHDA- 2012/07/10 06:00
+CRDT- 2011/12/14 06:00
+PHST- 2011/12/07 [aheadofprint]
+PHST- 2012/01/23 [aheadofprint]
+AID - gr.126953.111 [pii]
+AID - 10.1101/gr.126953.111 [doi]
+PST - ppublish
+SO  - Genome Res. 2012 Mar;22(3):549-56. doi: 10.1101/gr.126953.111. Epub 2011 Dec 7.

@@ -1,0 +1,41 @@
+%A Myers, Eugene W.
+%A Sutton, Granger G.
+%A Delcher, Art L.
+%A Dew, Ian M.
+%A Fasulo, Dan P.
+%A Flanigan, Michael J.
+%A Kravitz, Saul A.
+%A Mobarry, Clark M.
+%A Reinert, Knut H. J.
+%A Remington, Karin A.
+%A Anson, Eric L.
+%A Bolanos, Randall A.
+%A Chou, Hui-Hsien
+%A Jordan, Catherine M.
+%A Halpern, Aaron L.
+%A Lonardi, Stefano
+%A Beasley, Ellen M.
+%A Brandon, Rhonda C.
+%A Chen, Lin
+%A Dunn, Patrick J.
+%A Lai, Zhongwu
+%A Liang, Yong
+%A Nusskern, Deborah R.
+%A Zhan, Ming
+%A Zhang, Qing
+%A Zheng, Xiangqun
+%A Rubin, Gerald M.
+%A Adams, Mark D.
+%A Venter, J. Craig
+%T A Whole-Genome Assembly of Drosophila
+%0 Journal Article
+%D 2000 
+%8 March 24, 2000 
+%J Science 
+%P 2196-2204 
+%R 10.1126/science.287.5461.2196 
+%V 287 
+%N 5461 
+%U http://www.sciencemag.org/content/287/5461/2196.abstract 
+%X We report on the quality of a whole-genome assembly ofDrosophila melanogaster and the nature of the computer algorithms that accomplished it. Three independent external data sources essentially agree with and support the assembly's sequence and ordering of contigs across the euchromatic portion of the genome. In addition, there are isolated contigs that we believe represent nonrepetitive pockets within the heterochromatin of the centromeres. Comparison with a previously sequenced 2.9- megabase region indicates that sequencing accuracy within nonrepetitive segments is greater than 99.99% without manual curation. As such, this initial reconstruction of the Drosophila sequence should be of substantial value to the scientific community. 
+

@@ -1,0 +1,67 @@
+
+PMID- 20508146
+OWN - NLM
+STAT- MEDLINE
+DA  - 20100902
+DCOM- 20101223
+LR  - 20131023
+IS  - 1549-5469 (Electronic)
+IS  - 1088-9051 (Linking)
+VI  - 20
+IP  - 9
+DP  - 2010 Sep
+TI  - Assembly of large genomes using second-generation sequencing.
+PG  - 1165-73
+LID - 10.1101/gr.101360.109 [doi]
+AB  - Second-generation sequencing technology can now be used to sequence an entire
+      human genome in a matter of days and at low cost. Sequence read lengths,
+      initially very short, have rapidly increased since the technology first appeared,
+      and we now are seeing a growing number of efforts to sequence large genomes de
+      novo from these short reads. In this Perspective, we describe the issues
+      associated with short-read assembly, the different types of data produced by
+      second-gen sequencers, and the latest assembly algorithms designed for these
+      data. We also review the genomes that have been assembled recently from short
+      reads and make recommendations for sequencing strategies that will yield a
+      high-quality assembly.
+FAU - Schatz, Michael C
+AU  - Schatz MC
+AD  - Center for Bioinformatics and Computational Biology, University of Maryland,
+      College Park, Maryland 20742, USA.
+FAU - Delcher, Arthur L
+AU  - Delcher AL
+FAU - Salzberg, Steven L
+AU  - Salzberg SL
+LA  - eng
+GR  - R01 GM083873/GM/NIGMS NIH HHS/United States
+GR  - R01 GM083873-07/GM/NIGMS NIH HHS/United States
+GR  - R01 GM083873-08/GM/NIGMS NIH HHS/United States
+GR  - R01 LM006845-10/LM/NLM NIH HHS/United States
+GR  - R01 LM006845-11/LM/NLM NIH HHS/United States
+GR  - R01-GM083873/GM/NIGMS NIH HHS/United States
+GR  - R01-LM006845/LM/NLM NIH HHS/United States
+PT  - Journal Article
+PT  - Research Support, N.I.H., Extramural
+PT  - Research Support, U.S. Gov't, Non-P.H.S.
+DEP - 20100527
+PL  - United States
+TA  - Genome Res
+JT  - Genome research
+JID - 9518021
+SB  - IM
+MH  - Algorithms
+MH  - Base Sequence
+MH  - Genome, Human
+MH  - Genomics/*methods
+MH  - Humans
+MH  - Sequence Analysis, DNA/*methods
+PMC - PMC2928494
+OID - NLM: PMC2928494
+EDAT- 2010/05/29 06:00
+MHDA- 2010/12/25 06:00
+CRDT- 2010/05/29 06:00
+PHST- 2010/05/27 [aheadofprint]
+PHST- 2010/06/21 [aheadofprint]
+AID - gr.101360.109 [pii]
+AID - 10.1101/gr.101360.109 [doi]
+PST - ppublish
+SO  - Genome Res. 2010 Sep;20(9):1165-73. doi: 10.1101/gr.101360.109. Epub 2010 May 27.

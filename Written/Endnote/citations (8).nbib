@@ -1,0 +1,115 @@
+
+PMID- 23587118
+OWN - NLM
+STAT- PubMed-not-MEDLINE
+DA  - 20130416
+DCOM- 20130417
+LR  - 20130425
+IS  - 2047-217X (Electronic)
+IS  - 2047-217X (Linking)
+VI  - 1
+IP  - 1
+DP  - 2012
+TI  - SOAPdenovo2: an empirically improved memory-efficient short-read de novo
+      assembler.
+PG  - 18
+LID - 10.1186/2047-217X-1-18 [doi]
+AB  - BACKGROUND: There is a rapidly increasing amount of de novo genome assembly using
+      next-generation sequencing (NGS) short reads; however, several big challenges
+      remain to be overcome in order for this to be efficient and accurate. SOAPdenovo 
+      has been successfully applied to assemble many published genomes, but it still
+      needs improvement in continuity, accuracy and coverage, especially in repeat
+      regions. FINDINGS: To overcome these challenges, we have developed its successor,
+      SOAPdenovo2, which has the advantage of a new algorithm design that reduces
+      memory consumption in graph construction, resolves more repeat regions in contig 
+      assembly, increases coverage and length in scaffold construction, improves gap
+      closing, and optimizes for large genome. CONCLUSIONS: Benchmark using the
+      Assemblathon1 and GAGE datasets showed that SOAPdenovo2 greatly surpasses its
+      predecessor SOAPdenovo and is competitive to other assemblers on both assembly
+      length and accuracy. We also provide an updated assembly version of the 2008
+      Asian (YH) genome using SOAPdenovo2. Here, the contig and scaffold N50 of the YH 
+      genome were ~20.9 kbp and ~22 Mbp, respectively, which is 3-fold and 50-fold
+      longer than the first published version. The genome coverage increased from
+      81.16% to 93.91%, and memory consumption was ~2/3 lower during the point of
+      largest memory consumption.
+FAU - Luo, Ruibang
+AU  - Luo R
+AD  - BGI HK Research Institute, 16 Dai Fu Street, Tai Po Industrial Estate, Hong Kong.
+      twlam@cs.hku.hk.
+FAU - Liu, Binghang
+AU  - Liu B
+FAU - Xie, Yinlong
+AU  - Xie Y
+FAU - Li, Zhenyu
+AU  - Li Z
+FAU - Huang, Weihua
+AU  - Huang W
+FAU - Yuan, Jianying
+AU  - Yuan J
+FAU - He, Guangzhu
+AU  - He G
+FAU - Chen, Yanxiang
+AU  - Chen Y
+FAU - Pan, Qi
+AU  - Pan Q
+FAU - Liu, Yunjie
+AU  - Liu Y
+FAU - Tang, Jingbo
+AU  - Tang J
+FAU - Wu, Gengxiong
+AU  - Wu G
+FAU - Zhang, Hao
+AU  - Zhang H
+FAU - Shi, Yujian
+AU  - Shi Y
+FAU - Liu, Yong
+AU  - Liu Y
+FAU - Yu, Chang
+AU  - Yu C
+FAU - Wang, Bo
+AU  - Wang B
+FAU - Lu, Yao
+AU  - Lu Y
+FAU - Han, Changlei
+AU  - Han C
+FAU - Cheung, David W
+AU  - Cheung DW
+FAU - Yiu, Siu-Ming
+AU  - Yiu SM
+FAU - Peng, Shaoliang
+AU  - Peng S
+FAU - Xiaoqian, Zhu
+AU  - Xiaoqian Z
+FAU - Liu, Guangming
+AU  - Liu G
+FAU - Liao, Xiangke
+AU  - Liao X
+FAU - Li, Yingrui
+AU  - Li Y
+FAU - Yang, Huanming
+AU  - Yang H
+FAU - Wang, Jian
+AU  - Wang J
+FAU - Lam, Tak-Wah
+AU  - Lam TW
+FAU - Wang, Jun
+AU  - Wang J
+LA  - eng
+PT  - Journal Article
+DEP - 20121227
+PL  - England
+TA  - Gigascience
+JT  - GigaScience
+JID - 101596872
+PMC - PMC3626529
+OID - NLM: PMC3626529
+EDAT- 2012/01/01 00:00
+MHDA- 2012/01/01 00:01
+CRDT- 2013/04/17 06:00
+PHST- 2012/07/24 [received]
+PHST- 2012/12/10 [accepted]
+PHST- 2012/12/27 [aheadofprint]
+AID - 2047-217X-1-18 [pii]
+AID - 10.1186/2047-217X-1-18 [doi]
+PST - epublish
+SO  - Gigascience. 2012 Dec 27;1(1):18. doi: 10.1186/2047-217X-1-18.

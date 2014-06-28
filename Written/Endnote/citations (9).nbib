@@ -1,0 +1,91 @@
+
+PMID- 22506599
+OWN - NLM
+STAT- MEDLINE
+DA  - 20120508
+DCOM- 20120827
+LR  - 20131107
+IS  - 1557-8666 (Electronic)
+IS  - 1066-5277 (Linking)
+VI  - 19
+IP  - 5
+DP  - 2012 May
+TI  - SPAdes: a new genome assembly algorithm and its applications to single-cell
+      sequencing.
+PG  - 455-77
+LID - 10.1089/cmb.2012.0021 [doi]
+AB  - The lion's share of bacteria in various environments cannot be cloned in the
+      laboratory and thus cannot be sequenced using existing technologies. A major goal
+      of single-cell genomics is to complement gene-centric metagenomic data with
+      whole-genome assemblies of uncultivated organisms. Assembly of single-cell data
+      is challenging because of highly non-uniform read coverage as well as elevated
+      levels of sequencing errors and chimeric reads. We describe SPAdes, a new
+      assembler for both single-cell and standard (multicell) assembly, and demonstrate
+      that it improves on the recently released E+V-SC assembler (specialized for
+      single-cell data) and on popular assemblers Velvet and SoapDeNovo (for multicell 
+      data). SPAdes generates single-cell assemblies, providing information about
+      genomes of uncultivatable bacteria that vastly exceeds what may be obtained via
+      traditional metagenomics studies. SPAdes is available online (
+      http://bioinf.spbau.ru/spades ). It is distributed as open source software.
+FAU - Bankevich, Anton
+AU  - Bankevich A
+AD  - Algorithmic Biology Laboratory, St. Petersburg Academic University, Russian
+      Academy of Sciences, St. Petersburg, Russia.
+FAU - Nurk, Sergey
+AU  - Nurk S
+FAU - Antipov, Dmitry
+AU  - Antipov D
+FAU - Gurevich, Alexey A
+AU  - Gurevich AA
+FAU - Dvorkin, Mikhail
+AU  - Dvorkin M
+FAU - Kulikov, Alexander S
+AU  - Kulikov AS
+FAU - Lesin, Valery M
+AU  - Lesin VM
+FAU - Nikolenko, Sergey I
+AU  - Nikolenko SI
+FAU - Pham, Son
+AU  - Pham S
+FAU - Prjibelski, Andrey D
+AU  - Prjibelski AD
+FAU - Pyshkin, Alexey V
+AU  - Pyshkin AV
+FAU - Sirotkin, Alexander V
+AU  - Sirotkin AV
+FAU - Vyahhi, Nikolay
+AU  - Vyahhi N
+FAU - Tesler, Glenn
+AU  - Tesler G
+FAU - Alekseyev, Max A
+AU  - Alekseyev MA
+FAU - Pevzner, Pavel A
+AU  - Pevzner PA
+LA  - eng
+GR  - 3P41RR024851-02S1/RR/NCRR NIH HHS/United States
+PT  - Journal Article
+PT  - Research Support, N.I.H., Extramural
+PT  - Research Support, Non-U.S. Gov't
+DEP - 20120416
+PL  - United States
+TA  - J Comput Biol
+JT  - Journal of computational biology : a journal of computational molecular cell
+      biology
+JID - 9433358
+SB  - IM
+MH  - *Algorithms
+MH  - Bacteria/*genetics
+MH  - *Genome, Bacterial
+MH  - Metagenomics/*methods
+MH  - Sequence Analysis, DNA/methods
+MH  - Single-Cell Analysis/*methods
+PMC - PMC3342519
+OID - NLM: PMC3342519
+EDAT- 2012/04/18 06:00
+MHDA- 2012/08/28 06:00
+CRDT- 2012/04/18 06:00
+PHST- 2012/04/16 [aheadofprint]
+AID - 10.1089/cmb.2012.0021 [doi]
+PST - ppublish
+SO  - J Comput Biol. 2012 May;19(5):455-77. doi: 10.1089/cmb.2012.0021. Epub 2012 Apr
+      16.
