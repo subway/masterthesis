@@ -1,0 +1,24 @@
+%A Li, Zhenyu
+%A Chen, Yanxiang
+%A Mu, Desheng
+%A Yuan, Jianying
+%A Shi, Yujian
+%A Zhang, Hao
+%A Gan, Jun
+%A Li, Nan
+%A Hu, Xuesong
+%A Liu, Binghang
+%A Yang, Bicheng
+%A Fan, Wei
+%T Comparison of the two major classes of assembly algorithms: overlap–layout–consensus and de-bruijn-graph
+%0 Journal Article
+%D 2012 
+%8 January 1, 2012 
+%J Briefings in Functional Genomics 
+%P 25-37 
+%R 10.1093/bfgp/elr035 
+%V 11 
+%N 1 
+%U http://bfgp.oxfordjournals.org/content/11/1/25.abstract 
+%X Since the completion of the cucumber and panda genome projects using Illumina sequencing in 2009, the global scientific community has had to pay much more attention to this new cost-effective approach to generate the draft sequence of large genomes. To allow new users to more easily understand the assembly algorithms and the optimum software packages for their projects, we make a detailed comparison of the two major classes of assembly algorithms: overlap–layout–consensus and de-bruijn-graph, from how they match the Lander–Waterman model, to the required sequencing depth and reads length. We also discuss the computational efficiency of each class of algorithm, the influence of repeats and heterozygosity and points of note in the subsequent scaffold linkage and gap closure steps. We hope this review can help further promote the application of second-generation de novo sequencing, as well as aid the future development of assembly algorithms. 
+

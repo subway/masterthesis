@@ -1,0 +1,144 @@
+*** CABOG 7.0 Hiseq *** 
+fastqToCA -insertsize 335 35 -libraryname reads -mates \
+reads_1.trimmed.fastq,reads_2.trimmed.fastq > reads.frg
+runCA -d . -p asm -s config reads.frg>&runCA.log
+
+*** CABOG 7.0 MiSeq ***
+fastqToCA -insertsize 335 35 -libraryname reads -mates \
+reads_1.fastq,reads_2.fastq > reads.frg
+runCA -d . -p asm -s config reads.frg>&runCA.log
+
+*** CABOG 8.1 Hiseq ***
+fastqToCA -insertsize 335 35 -libraryname reads -mates \
+reads_1.trimmed.fastq,reads_2.trimmed.fastq > reads.frg
+runCA -d . -p asm -s config reads.frg>&runCA.log
+
+*** CABOG 8.1 MiSeq ***
+fastqToCA -insertsize 335 35 -libraryname reads \
+-technology illumina-long -mates \
+reads_1.fastq,reads_2.fastq > reads.frg
+runCA -d . -p asm -s config reads.frg>&runCA.log
+
+*** MIRA 3.4.0 HiSeq ***
+#!/bin/bash
+numreads=800000
+strainname="V.cholerae"
+numlines=$((4*${numreads}))
+cat reads_1.fastq | head -${numlines} | sed -e \
+'s/SRR[0-9.]*/&\/1/'>${strainname}-${numreads}_in.solexa.fastq
+cat reads_2.fastq | head -${numlines} | sed -e \
+'s/SRR[0-9.]*/&\/2/'>${strainname}-${numreads}_in.solexa.fastq
+grep "@SRR" ${strainname}-${numreads}_in.solexa.fastq | cut -f 1 -d ' ' | \ sed -e 's/@//' -e "s/$/ ${strainname}/" >> \
+${strainname}-${numreads}_straindata_in.txt
+ln -s ${strainname}-${numreads}_in.solexa.fastq mira_in.solexa.fastq
+ln -s ${strainname}-${numreads}_straindata_in.txt mira_straindata_in.txt
+mira -fastq -job=denovo,genome,accurate,solexa -MI:sonfs=no:somrnl=0 \ SOLEXA_SETTINGS -GE:tismin=167:tismax=502 -LR:file_type=fastq \
+-AS:mrpc=5>&log_assembly.txt
+
+*** MIRA 3.4.0 MiSeq ***
+#!/bin/bash
+numreads=800000
+strainname="V.cholerae"
+numlines=$((4*${numreads}))
+cat reads_1.trimmed.fastq | head -${numlines} | sed -e \
+'s/SRR[0-9.]*/&\/1/'>${strainname}-${numreads}_in.solexa.fastq
+cat reads_2.trimmed.fastq | head -${numlines} | sed -e \
+'s/SRR[0-9.]*/&\/2/'>${strainname}-${numreads}_in.solexa.fastq
+grep "@SRR" ${strainname}-${numreads}_in.solexa.fastq | cut -f 1 -d ' ' | \
+sed -e 's/@//' -e "s/$/ ${strainname}/" >> \
+${strainname}-${numreads}_straindata_in.txt
+ln -s ${strainname}-${numreads}_in.solexa.fastq mira_in.solexa.fastq
+ln -s ${strainname}-${numreads}_straindata_in.txt mira_straindata_in.txt
+mira -fastq -job=denovo,genome,accurate,solexa -MI:sonfs=no:somrnl=0 \
+SOLEXA_SETTINGS -GE:tismin=167:tismax=502 -LR:file_type=fastq \
+-AS:mrpc=5>&log_assembly.txt
+
+*** MSRCA	1.8.3 + 2.1.0 HiSeq ***
+runSRCA.pl config
+assemble.sh
+
+where config file contains
+PATHS
+JELLYFISH_PATH=/full/path/to/MSRCA/bin
+SR_PATH=/full/path/to/MSRCA/bin
+CA_PATH=/full/path/to/CA-installation/bin
+END
+DATA
+PE= p1 335 35  reads_1.trimmed.fastq reads_2.trimmed.fastq
+END
+PARAMETERS
+GRAPH_KMER_SIZE=89 or 99
+NUM_THREADS=24
+JF_SIZE=2000000000
+END
+
+*** MSRCA 1.8.3 + 2.1.0 MiSeq ***
+runSRCA.pl config
+assemble.sh
+
+where config file contains
+PATHS
+JELLYFISH_PATH=/full/path/to/MSRCA/bin
+SR_PATH=/full/path/to/MSRCA/bin
+CA_PATH=/full/path/to/CA-installation/bin
+END
+DATA
+PE= p1 335 35  reads_1.trimmed.fastq reads_2.trimmed.fastq
+END
+PARAMETERS
+GRAPH_KMER_SIZE=89 or 99
+NUM_THREADS=24
+JF_SIZE=2000000000
+END
+
+*** SOAPdenovo2 (2.04) + Gapcloser (1.12) HiSeq ***
+SOAPdenovo all -K 51 -F -R -E -w -u -s config -o asm \
+-p 8 >> SOAPdenovo.log
+GapCloser -b config -a asm.scafSeq -o asm.new.scafSeq \
+-t 8 >> SOAPdenovo.log
+
+where config file contains
+[LIB]
+avg_ins=335
+reverse_seq=0
+asm_flags=3
+rank=1
+q1=reads_1.trimmed.fastq
+q2=reads_2.trimmed.fastq
+
+*** SOAPdenovo2 (2.04) + Gapcloser (1.12) MiSeq ***
+SOAPdenovo all -K 49 -F -R -E -w -u -s config -o asm \
+-p 8 >> SOAPdenovo.log
+GapCloser -b config -a asm.scafSeq -o asm.new.scafSeq \
+-t 8 >> SOAPdenovo.log
+
+where config file contains
+[LIB]
+avg_ins=335
+reverse_seq=0
+asm_flags=3
+rank=1
+q1=reads_1.fastq
+q2=reads_2.fastq
+
+*** SPAdes 2.3.0 + 2.5.0 HiSeq ***
+spades.py -t 2 -k 33,55,65,75,85,99 \
+--pe1-1 reads_1.trimmed.fastq \
+--pe1-2 reads_2.trimmed.fastq \
+-o output >spades.out 2>&1
+
+*** SPAdes 2.3.0 + 2.5.0 MiSeq ***
+spades.py -t 2 -k 33,55,65,75,85,99 \
+--pe1-1 reads_1.trimmed.fastq \
+--pe1-2 reads_2.trimmed.fastq \
+-o output >spades.out 2>&1
+
+*** Velvet 1.2.08 + 1.2.10 HiSeq ***
+shuffleSequences_fastq.pl reads_1.trimmed.fastq reads_2.trimmed.fastq reads.trimmed.fastq
+velveth . 49 -fastq -shortPaired reads.trimmed.fastq
+velvetg . -exp_cov auto -ins_length 335 -ins_length_sd 35 -scaffolding yes
+
+*** Velvet 1.2.08 + 1.2.10 MiSeq ***
+shuffleSequences_fastq.pl reads_1.trimmed.fastq reads_2.trimmed.fastq reads.trimmed.fastq
+velveth . 97 -fastq -shortPaired reads.trimmed.fastq
+velvetg . -exp_cov auto -ins_length 335 -ins_length_sd 35 -scaffolding yes
