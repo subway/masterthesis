@@ -3,21 +3,33 @@ fastqToCA -insertsize 335 35 -libraryname reads -mates \
 reads_1.trimmed.fastq,reads_2.trimmed.fastq > reads.frg
 runCA -d . -p asm -s config reads.frg>&runCA.log
 
+where config file contains
+unitigger = bog
+
 *** CABOG 7.0 MiSeq ***
 fastqToCA -insertsize 335 35 -libraryname reads -mates \
 reads_1.fastq,reads_2.fastq > reads.frg
 runCA -d . -p asm -s config reads.frg>&runCA.log
+
+where config file contains
+unitigger = bog
 
 *** CABOG 8.1 Hiseq ***
 fastqToCA -insertsize 335 35 -libraryname reads -mates \
 reads_1.trimmed.fastq,reads_2.trimmed.fastq > reads.frg
 runCA -d . -p asm -s config reads.frg>&runCA.log
 
+where config file contains
+unitigger = bog
+
 *** CABOG 8.1 MiSeq ***
 fastqToCA -insertsize 335 35 -libraryname reads \
 -technology illumina-long -mates \
 reads_1.fastq,reads_2.fastq > reads.frg
 runCA -d . -p asm -s config reads.frg>&runCA.log
+
+where config file contains
+unitigger = bog
 
 *** MIRA 3.4.0 HiSeq ***
 #!/bin/bash
